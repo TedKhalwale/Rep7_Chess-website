@@ -1,0 +1,238 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar {
+    margin: 0 10px 0 10px;
+}
+
+.logo {
+    position: relative;
+    font-size: 40px;
+    text-decoration: none;
+    color: #00abf0;
+    font-weight: 700;
+}
+
+
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.navbar a:hover {
+    color: #00abf0;
+}
+
+.landing {
+    height: 100vh;
+    background-color: #00abf0; 
+    /* background-image: url('../pics/background.jpeg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 50px 10%; */
+
+}
+
+.landing-grid {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 70px;
+    margin: 0 70px 0 px;
+}
+
+.common-btn {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #00abf0;
+    border-radius: 10px;
+    background: #00abf0;
+    cursor: pointer;
+    padding: 10px;
+    transition: .3s;
+}
+
+.common-btn:hover {
+    background: #ffffff;
+    color: #00abf0;
+}
+
+.left-col {
+    /* padding-top: 10vh; */
+    max-width: 750px;
+}
+
+.left-col h1 {
+    position: relative;
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.left-col h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.left-col p {
+    font-size: 20px;
+    max-width: 500px;
+    margin: 20px 0 40px;
+}
+
+.right-col {
+    padding-top: 5vh;
+}
+
+.line1 {
+    width: 200px;
+    height: 1px;
+    margin: 5px;
+    display: inline-block;
+    background: #00abf0;
+}
+
+.line2 {
+    width: 150px;
+    height: 1px;
+    margin: 5px;
+    display: inline-block;
+    background: #00abf0;
+}
+
+.line3 {
+    width: 200px;
+    height: 1px;
+    margin: 5px;
+    display: inline-block;
+    background: #ffffff;
+}
+
+.line4 {
+    width: 150px;
+    height: 1px;
+    margin: 5px;
+    display: inline-block;
+    background: #ffffff;
+}
+
+.square1 {
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    display: inline-block;
+    margin: 10px;
+}
+
+.square2 {
+    width: 15px;
+    height: 15px;
+    background: #00abf0;
+    display: inline-block;
+    margin: 15px;
+}
+.tips {
+
+}
+
+/* .tips-text {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+} */
+
+.tips-text h2 {
+    color: #00abf0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 70px;
+    margin: 0 70px 0 px;
+    height: 90vh;
+}
+
+.matches-grid {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 70px;
+    margin: 0 70px 0 px;
+}
+
+.contact-us {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    /* background-clip:  url('../videos/The\ Chess\ Game\ l\ Cinematic\ Chess\ B\ Roll\ l\ Edelkrone.mp4');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+/* video {
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+  } */
+  
+
+.contact-form {
+    max-width: 500px;
+    max-height: 600px;
+    margin: 30px 0;
+    border: 2px solid #00abf0;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+}
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: #000000;
+    border-radius: 8px;
+
+}
+
+form button {
+    width: 385px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 80px;
+}
